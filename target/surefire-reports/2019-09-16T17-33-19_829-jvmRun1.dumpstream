@@ -1,0 +1,33 @@
+# Created at 2019-09-16T17:33:31.071
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+# Created at 2019-09-16T17:33:31.572
+Unexpected IOException with stream: 2019-09-16 17:33:31.571  INFO 23596 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+
+
+# Created at 2019-09-16T17:33:31.852
+Unexpected IOException with stream: 2019-09-16 17:33:31.850  WARN 23596 --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+
+
+# Created at 2019-09-16T17:33:33.777
+Unexpected IOException with stream: 2019-09-16 17:33:33.770  INFO 23596 --- [           main] c.druo.RestClientesDruoApplicationTests  : Started RestClientesDruoApplicationTests in 11.016 seconds (JVM running for 12.859)
+
+
+# Created at 2019-09-16T17:33:33.817
+Unexpected IOException: 5,1,com.druo.RestClientesDruoApplicationTests,contextLoads(com.druo.RestClientesDruoApplicationTests),null,null,null
+
+
+# Created at 2019-09-16T17:33:33.940
+Unexpected IOException: 6,1,com.druo.RestClientesDruoApplicationTests,contextLoads(com.druo.RestClientesDruoApplicationTests),null,null,null
+
+
+# Created at 2019-09-16T17:33:33.942
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,com.druo.RestClientesDruoApplicationTests,null,null,null
+
+

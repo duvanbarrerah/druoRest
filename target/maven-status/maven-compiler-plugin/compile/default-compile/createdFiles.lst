@@ -1,0 +1,6 @@
+com\druo\model\entity\Cliente.class
+com\druo\controllers\ClienteController.class
+com\druo\RestClientesDruoApplication.class
+com\druo\model\services\ClienteServiceImpl.class
+com\druo\model\services\IClienteService.class
+com\druo\model\repository\IClienteRepository.class
