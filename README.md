@@ -1,3 +1,3 @@
 # druoRest
+<img src="/img/bodyPost.jpg" align="center" />
 
-![Alt text](relative/img/bodyPost.jpg?raw=true "body post")
